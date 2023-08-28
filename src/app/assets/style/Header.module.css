@@ -1,0 +1,42 @@
+.main_title {
+    color: #fff;
+    font-size: 1.75em;
+    transition: font-size 0.3s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif!important;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.25em;
+        
+    }
+    @media screen and (max-width: 576px) {
+        font-size: 1.05em;
+        
+    }
+}
+
+.nav_items {
+    color: #fff;
+    margin: 0px 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif!important;
+
+    @media screen and (max-width:576px) {
+        margin: 0px 0px;
+        
+    }
+}
+
+.main_nav_container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #2c3e50!important;
+}
+.menu_button{
+    font-size: 80%;
+    padding: 0.8rem;
+    background-color: #1ABC9C;
+    color: #fff;
+    font-weight: 700;
+}
