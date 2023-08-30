@@ -68,8 +68,25 @@
 }
 
 .port_image {
-    @media screen and (max-width:768px) {
-        width: 100px !important;
 
+
+    @media screen and (max-width:576px) {
+        width: 250px !important;
+        height: 300px !important;
     }
+
+
+}
+
+.port_image:hover {
+    background-color: #1ABC9C !important;
+
+    opacity: 0.;
+}
+
+.container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
